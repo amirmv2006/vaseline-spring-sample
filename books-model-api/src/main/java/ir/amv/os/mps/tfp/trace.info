@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:314455e4-4c05-4ed8-8909-bb68bd4ccbce(ir.amv.os.mps.tfp)/7444393943328454799">
+    <file name="DahanetServiceBusinessConfig.java">
+      <unit id="7444393943328454799" at="10,0,15,0" name="ir.amv.os.mps.tfp.business.impl.spring.DahanetServiceBusinessConfig" />
+    </file>
+    <file name="DahanetServiceDaoConfig.java">
+      <unit id="7444393943328454799" at="10,0,15,0" name="ir.amv.os.mps.tfp.dao.impl.spring.DahanetServiceDaoConfig" />
+    </file>
+  </root>
+  <root nodeRef="r:314455e4-4c05-4ed8-8909-bb68bd4ccbce(ir.amv.os.mps.tfp)/8964050071457467020">
+    <file name="IMyModelBusiness.java">
+      <unit id="8964050071457467020" at="7,0,9,0" name="ir.amv.os.mps.tfp.business.api.IMyModelBusiness" />
+    </file>
+    <file name="IMyModelDao.java">
+      <unit id="8964050071457467020" at="7,0,9,0" name="ir.amv.os.mps.tfp.dao.api.IMyModelDao" />
+    </file>
+    <file name="IMyModelModel.java">
+      <node id="8964050071457467020" at="8,0,9,0" concept="2" trace="getFirstName#()Ljava/lang/String;" />
+      <node id="8964050071457467020" at="9,0,10,0" concept="2" trace="getRel#()Lir/amv/os/mps/tfp/IMyModelModel;" />
+      <node id="8964050071457467020" at="10,0,11,0" concept="2" trace="setFirstName#(Ljava/lang/String;)V" />
+      <node id="8964050071457467020" at="11,0,12,0" concept="2" trace="setRel#(Lir/amv/os/mps/tfp/IMyModelModel;)V" />
+      <scope id="8964050071457467020" at="8,0,9,0" />
+      <scope id="8964050071457467020" at="9,0,10,0" />
+      <scope id="8964050071457467020" at="10,0,11,0">
+        <var name="firstName" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="11,0,12,0">
+        <var name="rel" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="7,0,13,0" name="ir.amv.os.mps.tfp.model.api.IMyModelModel" />
+    </file>
+    <file name="IMyModelRest.java">
+      <unit id="8964050071457467020" at="7,0,9,0" name="ir.amv.os.mps.tfp.rest.api.IMyModelRest" />
+    </file>
+    <file name="IMyModelService.java">
+      <unit id="8964050071457467020" at="7,0,9,0" name="ir.amv.os.mps.tfp.service.api.IMyModelService" />
+    </file>
+    <file name="MyModelDto.java">
+      <node id="8964050071457467020" at="8,0,9,0" concept="1" trace="firstName" />
+      <node id="8964050071457467020" at="9,0,10,0" concept="1" trace="rel" />
+      <node id="8964050071457467020" at="10,32,11,21" concept="3" />
+      <node id="8964050071457467020" at="13,30,14,15" concept="3" />
+      <node id="8964050071457467020" at="16,43,17,31" concept="0" />
+      <node id="8964050071457467020" at="19,35,20,19" concept="0" />
+      <node id="8964050071457467020" at="10,0,13,0" concept="2" trace="getFirstName#()Ljava/lang/String;" />
+      <node id="8964050071457467020" at="13,0,16,0" concept="2" trace="getRel#()Lir/amv/os/mps/tfp/MyModelDto;" />
+      <node id="8964050071457467020" at="16,0,19,0" concept="2" trace="firstName#(Ljava/lang/String;)V" />
+      <node id="8964050071457467020" at="19,0,22,0" concept="2" trace="rel#(Lir/amv/os/mps/tfp/MyModelDto;)V" />
+      <scope id="8964050071457467020" at="10,32,11,21" />
+      <scope id="8964050071457467020" at="13,30,14,15" />
+      <scope id="8964050071457467020" at="16,43,17,31" />
+      <scope id="8964050071457467020" at="19,35,20,19" />
+      <scope id="8964050071457467020" at="10,0,13,0" />
+      <scope id="8964050071457467020" at="13,0,16,0" />
+      <scope id="8964050071457467020" at="16,0,19,0">
+        <var name="firstName" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="19,0,22,0">
+        <var name="rel" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="7,0,23,0" name="ir.amv.os.mps.tfp.model.dto.MyModelDto" />
+    </file>
+    <file name="MyModelJpaModelImpl.java">
+      <node id="8964050071457467020" at="18,32,19,21" concept="3" />
+      <node id="8964050071457467020" at="21,33,22,15" concept="3" />
+      <node id="8964050071457467020" at="24,46,25,31" concept="0" />
+      <node id="8964050071457467020" at="27,41,28,19" concept="0" />
+      <node id="8964050071457467020" at="14,0,16,0" concept="1" trace="firstName" />
+      <node id="8964050071457467020" at="16,0,18,0" concept="1" trace="rel" />
+      <node id="8964050071457467020" at="18,0,21,0" concept="2" trace="getFirstName#()Ljava/lang/String;" />
+      <node id="8964050071457467020" at="21,0,24,0" concept="2" trace="getRel#()Lir/amv/os/mps/tfp/IMyModelModel;" />
+      <node id="8964050071457467020" at="24,0,27,0" concept="2" trace="setFirstName#(Ljava/lang/String;)V" />
+      <node id="8964050071457467020" at="27,0,30,0" concept="2" trace="setRel#(Lir/amv/os/mps/tfp/IMyModelModel;)V" />
+      <scope id="8964050071457467020" at="18,32,19,21" />
+      <scope id="8964050071457467020" at="21,33,22,15" />
+      <scope id="8964050071457467020" at="24,46,25,31" />
+      <scope id="8964050071457467020" at="27,41,28,19" />
+      <scope id="8964050071457467020" at="18,0,21,0" />
+      <scope id="8964050071457467020" at="21,0,24,0" />
+      <scope id="8964050071457467020" at="24,0,27,0">
+        <var name="firstName" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="27,0,30,0">
+        <var name="rel" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="12,0,32,0" name="ir.amv.os.mps.tfp.model.impl.jpa.MyModelJpaModelImpl" />
+    </file>
+    <file name="MyModelSpringBusinessImpl.java">
+      <node id="8964050071457467020" at="13,0,14,0" concept="1" trace="dao" />
+      <node id="8964050071457467020" at="14,0,15,0" concept="1" trace="businessActionExecutor" />
+      <node id="8964050071457467020" at="16,31,17,15" concept="3" />
+      <node id="8964050071457467020" at="20,70,21,34" concept="3" />
+      <node id="8964050071457467020" at="24,39,25,19" concept="0" />
+      <node id="8964050071457467020" at="28,97,29,57" concept="0" />
+      <node id="8964050071457467020" at="16,0,19,0" concept="2" trace="getDao#()Lir/amv/os/mps/tfp/IMyModelDao;" />
+      <node id="8964050071457467020" at="20,0,23,0" concept="2" trace="getBusinessActionExecutor#()Lir/amv/os/vaseline/business/apis/basic/layer/server/action/executor/IVaselineBusinessActionExecutor;" />
+      <node id="8964050071457467020" at="23,0,27,0" concept="2" trace="setDao#(Lir/amv/os/mps/tfp/IMyModelDao;)V" />
+      <node id="8964050071457467020" at="27,0,31,0" concept="2" trace="setBusinessActionExecutor#(Lir/amv/os/vaseline/business/apis/basic/layer/server/action/executor/IVaselineBusinessActionExecutor;)V" />
+      <scope id="8964050071457467020" at="16,31,17,15" />
+      <scope id="8964050071457467020" at="20,70,21,34" />
+      <scope id="8964050071457467020" at="24,39,25,19" />
+      <scope id="8964050071457467020" at="28,97,29,57" />
+      <scope id="8964050071457467020" at="16,0,19,0" />
+      <scope id="8964050071457467020" at="20,0,23,0" />
+      <scope id="8964050071457467020" at="23,0,27,0">
+        <var name="dao" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="27,0,31,0">
+        <var name="businessActionExecutor" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="11,0,32,0" name="ir.amv.os.mps.tfp.business.impl.spring.MyModelSpringBusinessImpl" />
+    </file>
+    <file name="MyModelSpringDaoImpl.java">
+      <node id="8964050071457467020" at="11,58,12,37" concept="3" />
+      <node id="8964050071457467020" at="11,0,14,0" concept="2" trace="getEntityClass#()Ljava/lang/Class;" />
+      <scope id="8964050071457467020" at="11,58,12,37" />
+      <scope id="8964050071457467020" at="11,0,14,0" />
+      <unit id="8964050071457467020" at="9,0,15,0" name="ir.amv.os.mps.tfp.dao.impl.spring.MyModelSpringDaoImpl" />
+    </file>
+    <file name="MyModelSpringRestImpl.java">
+      <node id="8964050071457467020" at="11,0,12,0" concept="1" trace="service" />
+      <node id="8964050071457467020" at="13,39,14,19" concept="3" />
+      <node id="8964050071457467020" at="18,52,19,23" concept="0" />
+      <node id="8964050071457467020" at="13,0,16,0" concept="2" trace="getService#()Lir/amv/os/mps/tfp/IMyModelService;" />
+      <node id="8964050071457467020" at="17,0,21,0" concept="2" trace="setService#(Lir/amv/os/mps/tfp/IMyModelService;)V" />
+      <scope id="8964050071457467020" at="13,39,14,19" />
+      <scope id="8964050071457467020" at="18,52,19,23" />
+      <scope id="8964050071457467020" at="13,0,16,0" />
+      <scope id="8964050071457467020" at="17,0,21,0">
+        <var name="service1" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="9,0,22,0" name="ir.amv.os.mps.tfp.rest.impl.spring.MyModelSpringRestImpl" />
+    </file>
+    <file name="MyModelSpringServiceImpl.java">
+      <node id="8964050071457467020" at="14,0,15,0" concept="1" trace="api" />
+      <node id="8964050071457467020" at="15,0,16,0" concept="1" trace="validator" />
+      <node id="8964050071457467020" at="16,0,17,0" concept="1" trace="coreExceptionHandler" />
+      <node id="8964050071457467020" at="17,0,18,0" concept="1" trace="mapper" />
+      <node id="8964050071457467020" at="19,36,20,15" concept="3" />
+      <node id="8964050071457467020" at="23,35,24,21" concept="3" />
+      <node id="8964050071457467020" at="26,58,27,32" concept="3" />
+      <node id="8964050071457467020" at="29,44,30,18" concept="3" />
+      <node id="8964050071457467020" at="34,45,35,15" concept="0" />
+      <node id="8964050071457467020" at="39,49,40,31" concept="0" />
+      <node id="8964050071457467020" at="43,83,44,53" concept="0" />
+      <node id="8964050071457467020" at="47,55,48,25" concept="0" />
+      <node id="8964050071457467020" at="19,0,22,0" concept="2" trace="getApi#()Lir/amv/os/mps/tfp/IMyModelBusiness;" />
+      <node id="8964050071457467020" at="23,0,26,0" concept="2" trace="getValidator#()Ljavax/validation/Validator;" />
+      <node id="8964050071457467020" at="26,0,29,0" concept="2" trace="getCoreExceptionHandler#()Lir/amv/os/vaseline/basics/apis/core/server/base/exc/handler/ICoreExceptionHandler;" />
+      <node id="8964050071457467020" at="29,0,32,0" concept="2" trace="getMapper#()Lir/amv/os/vaseline/basics/apis/mapper/server/objmapper/IVaselineObjectMapper;" />
+      <node id="8964050071457467020" at="33,0,37,0" concept="2" trace="setApi#(Lir/amv/os/mps/tfp/IMyModelBusiness;)V" />
+      <node id="8964050071457467020" at="38,0,42,0" concept="2" trace="setValidator#(Ljavax/validation/Validator;)V" />
+      <node id="8964050071457467020" at="42,0,46,0" concept="2" trace="setCoreExceptionHandler#(Lir/amv/os/vaseline/basics/apis/core/server/base/exc/handler/ICoreExceptionHandler;)V" />
+      <node id="8964050071457467020" at="46,0,50,0" concept="2" trace="setMapper#(Lir/amv/os/vaseline/basics/apis/mapper/server/objmapper/IVaselineObjectMapper;)V" />
+      <scope id="8964050071457467020" at="19,36,20,15" />
+      <scope id="8964050071457467020" at="23,35,24,21" />
+      <scope id="8964050071457467020" at="26,58,27,32" />
+      <scope id="8964050071457467020" at="29,44,30,18" />
+      <scope id="8964050071457467020" at="34,45,35,15" />
+      <scope id="8964050071457467020" at="39,49,40,31" />
+      <scope id="8964050071457467020" at="43,83,44,53" />
+      <scope id="8964050071457467020" at="47,55,48,25" />
+      <scope id="8964050071457467020" at="19,0,22,0" />
+      <scope id="8964050071457467020" at="23,0,26,0" />
+      <scope id="8964050071457467020" at="26,0,29,0" />
+      <scope id="8964050071457467020" at="29,0,32,0" />
+      <scope id="8964050071457467020" at="33,0,37,0">
+        <var name="api1" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="38,0,42,0">
+        <var name="validator" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="42,0,46,0">
+        <var name="coreExceptionHandler" id="8964050071457467020" />
+      </scope>
+      <scope id="8964050071457467020" at="46,0,50,0">
+        <var name="mapper" id="8964050071457467020" />
+      </scope>
+      <unit id="8964050071457467020" at="12,0,51,0" name="ir.amv.os.mps.tfp.service.impl.spring.MyModelSpringServiceImpl" />
+    </file>
+  </root>
+</debug-info>
+
