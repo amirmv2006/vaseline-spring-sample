@@ -11,7 +11,7 @@
     </parent>
     
     <groupId>ir.amv.os.vaseline.samples</groupId>
-    <artifactId>vaseline-spring-sample</artifactId>
+    <artifactId>books</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -19,10 +19,11 @@
         <vaseline.version>1.0-SNAPSHOT</vaseline.version>
     </properties>
     <modules>
+        <module>books-laas-model</module>
         <module>books-model-api</module>
         <module>books-model-jpa</module>
         <module>books-dao-api</module>
-        <module>books-dao-jpa</module>
+        <module>books-dao-spring</module>
         <module>books-business-api</module>
         <module>books-business-spring</module>
         <module>books-service-api</module>
@@ -30,7 +31,6 @@
         <module>books-rest-api</module>
         <module>books-rest-spring</module>
         <module>books-app-spring</module>
-        <module>books-laas-model</module>
     </modules>
 
 
