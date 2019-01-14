@@ -19,7 +19,7 @@
         <vaseline.version>1.0-SNAPSHOT</vaseline.version>
     </properties>
     <modules>
-        <module>books-laas-model</module>
+        <!--<module>books-laas-model</module>-->
         <module>books-model-api</module>
         <module>books-model-jpa</module>
         <module>books-dao-api</module>
