@@ -1,60 +1,33 @@
-<settings>
-    <!-- the path to the local repository - defaults to ~/.m2/repository
-    -->
-    <!-- <localRepository>/path/to/local/repo</localRepository>
-    -->
-    <mirrors>
-        <mirror> <!--Send all requests to the public group -->
-            <id>nexus</id>
-            <mirrorOf>*</mirrorOf>
-            <url>http://nexus.tools.svc:8081/repository/maven-snapshots/</url>
-        </mirror>
-    </mirrors>
-    <activeProfiles>
-        <!--make the profile active all the time -->
-        <activeProfile>nexus</activeProfile>
-    </activeProfiles>
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <profiles>
         <profile>
-            <id>nexus</id>
-            <!--Override the repository (and pluginRepository) "central" from the Maven Super POM
-                to activate snapshots for both! -->
             <repositories>
                 <repository>
-                    <id>central</id>
-                    <url>http://central</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
+                    <id>central</id>
+                    <name>central</name>
+                    <url>http://nexus.tools.svc:8081/repository/maven-public/</url>
                 </repository>
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
-                    <id>central</id>
-                    <url>http://central</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
+                    <id>central</id>
+                    <name>central</name>
+                    <url>http://nexus.tools.svc:8081/repository/maven-public/</url>
                 </pluginRepository>
             </pluginRepositories>
+            <id>custom-repo</id>
         </profile>
     </profiles>
-
-    <pluginGroups>
-        <pluginGroup>org.sonatype.plugins</pluginGroup>
-    </pluginGroups>
-
-    <servers>
-        <server>
-            <id>snapshots</id>
-            <username>admin</username>
-            <password>admin123</password>
-        </server>
-    </servers>
+    <activeProfiles>
+        <!--make the profile active all the time -->
+        <activeProfile>custom-repo</activeProfile>
+    </activeProfiles>
 </settings>
